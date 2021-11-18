@@ -45,6 +45,22 @@
  * However, we first have to understand the traditional way to appreciate why Express makes life easier.
  */
 
+
+
+
+
+// What we did in class on 11/9
+const Student = require('./tutorials/students');
+
+// Initializing an object of the class
+const studentOne = new Student('Nicholas Ciavone', 21, 2.84);
+
+console.log(studentOne.studentAge);
+
+studentOne.giveGreeting();
+
+
+
 /**
  * Get some core modules in
  */
